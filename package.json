@@ -1,0 +1,18 @@
+{
+  "name": "book-backend",
+  "version": "1.0.0",
+  "description": "book project backend interface",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=dev && nodemon ./src/main.js",
+    "prod": "set NODE_ENV=prod && nodemon ./src/main.js"
+  },
+  "author": "cyz99",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "sequelize": "^6.29.1"
+  }
+}
